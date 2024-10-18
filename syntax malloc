@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+int* swap(int *n, int *m);
+int main()
+{
+    int *p,a=5;
+    p=(int*) malloc(a* sizeof(int));
+    printf("%d",*p);
+}
